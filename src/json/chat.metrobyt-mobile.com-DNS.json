@@ -1,0 +1,36 @@
+{
+    "dns": [{
+        "header": [
+            ["; <<>> DiG 9.11.3-1ubuntu1.13-Ubuntu <<>> chat.metrobyt-mobile.com"],
+            [";; global options: +cmd"],
+            [";; Got answer:"],
+            [";; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43350"],
+            [";; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1"]
+        ],
+        "question": [
+            [";chat.metrobyt-mobile.com.", "IN", "A"]
+        ],
+        "answer": [{
+            "domain": "chat.metrobyt-mobile.com.",
+            "type": "CNAME",
+            "ttl": "28800",
+            "class": "IN",
+            "value": "metrobyt-mobile.com."
+        }, {
+            "domain": "metrobyt-mobile.com.",
+            "type": "A",
+            "ttl": "4",
+            "class": "IN",
+            "value": "45.60.101.176"
+        }],
+        "time": 109,
+        "server": "127.0.0.53#53(127.0.0.53)",
+        "datetime": "Tue Oct 06 22:06:40 UTC 2020",
+        "size": 83
+    }],
+    "subdomain": "chat.metrobyt-mobile.com",
+    "timestamp": {
+        "$date": "2020-10-06T22:06:40.910Z"
+    },
+    "__v": 0
+}
